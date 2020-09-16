@@ -1,0 +1,59 @@
+.header {
+    background: #3464E0;
+    height: 900px;
+}
+.wrapper-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+}
+.logo-npr {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.icon-npr {
+    width: 40px;
+    height: 44px;
+    margin-right: 16px;
+}
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9CBAF0;
+    list-style: none;
+    padding-right: 47px;
+    &:hover {
+        color: #FFFFFF;
+    }
+}
+.btn-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 42px;
+    border-color: transparent;
+    background: #1740AA;
+    border-radius: 50px;
+    font-size: 14px;
+    color: #FFFFFF;
+    outline: none;
+    cursor: pointer;
+}
+.icon-next {
+    padding-right: 9px;
+}
